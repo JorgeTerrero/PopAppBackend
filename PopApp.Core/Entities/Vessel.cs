@@ -2,6 +2,9 @@
 
 namespace PopApp.Core.Entities
 {
+    /// <summary>
+    /// Represent Vessel entity.
+    /// </summary>
     public class Vessel
     {
         /// <summary>
@@ -30,11 +33,11 @@ namespace PopApp.Core.Entities
         /// </summary>
         public string Slora { get; set; }
         /// <summary>
-        /// Vessel Arrival.
+        /// Vessel arrival.
         /// </summary>
         public string Arrival { get; set; }
         /// <summary>
-        /// Vessel Status
+        /// Vessel status to know is avalible.
         /// </summary>
         public bool Status { get; set; }
     }
