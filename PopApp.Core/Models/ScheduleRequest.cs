@@ -2,6 +2,9 @@
 
 namespace PopApp.Core.Models
 {
+    /// <summary>
+    /// Represent schedule request.
+    /// </summary>
     public sealed class ScheduleRequest
     {
         /// <summary>
