@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace PopApp.Core.Entities
 {
@@ -27,13 +24,10 @@ namespace PopApp.Core.Entities
         /// Freight type.
         /// </summary>
         public string Type { get; set; }
+        
         /// <summary>
-        /// Freight weight.
+        /// Is active to know is avalible.
         /// </summary>
-        public decimal? Weight { get; set; }
-        /// <summary>
-        /// Freight status to know is avalible.
-        /// </summary>
-        public bool Status { get; set; }
+        public bool IsActive { get; set; }
     }
 }

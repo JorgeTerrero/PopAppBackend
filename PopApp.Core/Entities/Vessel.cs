@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PopApp.Core.Entities
 {
@@ -31,14 +32,14 @@ namespace PopApp.Core.Entities
         /// <summary>
         /// Vessel slora.
         /// </summary>
-        public string Slora { get; set; }
+        public decimal? Slora { get; set; }
         /// <summary>
         /// Vessel arrival.
         /// </summary>
         public string Arrival { get; set; }
         /// <summary>
-        /// Vessel status to know is avalible.
+        /// Is Active to know is avalible.
         /// </summary>
-        public bool Status { get; set; }
+        public bool IsActive { get; set; }
     }
 }

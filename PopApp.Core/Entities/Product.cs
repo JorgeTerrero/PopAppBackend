@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace PopApp.Core.Entities
@@ -30,10 +31,10 @@ namespace PopApp.Core.Entities
         /// <summary>
         /// Type of container where the product can go 
         /// </summary>
-        public string ContainerType { get; set; }
+        public int ContainerType { get; set; }
         /// <summary>
-        /// Product status to know is avalible.
+        /// Is active to know is avalible.
         /// </summary>
-        public bool Status { get; set; }
+        public bool IsActive { get; set; }
     }
 }

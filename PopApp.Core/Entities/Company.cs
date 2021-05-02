@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace PopApp.Core.Entities
 {
@@ -32,8 +29,8 @@ namespace PopApp.Core.Entities
         /// </summary>
         public string phone { get; set; }
         /// <summary>
-        /// Company status to know is avalible.
+        /// Is active to know is avalible.
         /// </summary>
-        public bool Status { get; set; }
+        public bool IsActive { get; set; }
     }
 }
