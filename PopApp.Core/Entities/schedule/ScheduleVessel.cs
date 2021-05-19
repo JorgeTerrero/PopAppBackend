@@ -1,12 +1,14 @@
 ﻿using PopApp.Core.Enums;
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PopApp.Core.Entities.schedule
 {
     /// <summary>
     /// Represen the schedule of vessel.
     /// </summary>
+    [Table("Schedule_vessel")]
     public class ScheduleVessel
     {
         /// <summary>
